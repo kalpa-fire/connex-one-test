@@ -1,0 +1,18 @@
+{
+  "name": "connex-one-test",
+  "version": "1.0.0",
+  "description": "A simple API and frontend application completed as a technical test for Connex One",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kalpa-fire/connex-one-test.git"
+  },
+  "author": "Danilo Venticinque",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kalpa-fire/connex-one-test/issues"
+  },
+  "homepage": "https://github.com/kalpa-fire/connex-one-test#readme"
+}
