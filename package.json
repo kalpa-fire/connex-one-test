@@ -5,7 +5,12 @@
   "scripts": {
     "test:backend": "cd backend && npm run test",
     "test:frontend": "cd frontend && npm run test",
-    "test": "npm run test:backend && npm run test:frontend"
+    "test": "npm run test:backend && npm run test:frontend",
+    "start:backend": "cd backend && npm start",
+    "start:frontend": "cd frontend && npm start",
+    "install:frontend": "cd frontend && npm install",
+    "install:backend": "cd backend && npm install",
+    "start": "npm run install:frontend && npm run install:backend && concurrently \"npm run start:frontend\" \"npm run start:backend\""
   },
   "repository": {
     "type": "git",
@@ -16,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/kalpa-fire/connex-one-test/issues"
   },
-  "homepage": "https://github.com/kalpa-fire/connex-one-test#readme"
+  "homepage": "https://github.com/kalpa-fire/connex-one-test#readme",
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  }
 }
